@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Steve Fokas Music</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="Sidebar" class="sidebar shadow">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a class="navBtn" href="#about">About</a>
+        <a class="navBtn" href="#disco">Discography</a>
+        <a class="navBtn" href="#news">News</a>
+        <a class="navBtn" href="#upcoming">Upcoming Events</a>
+    </div>
+    <div class="main">
+        <header>
+            <img class="grow logo" src="images/Asset 5.png">       
+        </header>
+        <button href="#home" class="grow homeBtn shadow"><i class="fa fa-home"></i></button>
+        <button class="grow openbtn shadow" onclick="openNav()">&#9776; </button>
+        <div class="homepage display" id="home">    
+            <div class="slideshow-container fade">
+                <div class="Containers">
+                    <img id="mainimg" class="centered shadow" src="images/website image.jpg">
+                </div>
+                <div class="Containers">
+                    <iframe class="centered shadow spotifylnk" src="https://open.spotify.com/embed/artist/2unluylwecjrT2yT5Q8rfB?theme=0" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+                    </iframe>
+                </div>
+            </div>
+            <!-- Back and forward buttons -->
+            <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div class="display centered" id="about">
+            <p class="grow txtshadow" txtshadowid="text-info">"Steve is a multi-talented artist, producer, composer, and sound engineer residing in Philadelphia PA. A seasoned self-taught musician, instrumentalist, and DJ, he has seen success both as a producer and studio musician for other artists. 2020 was a fresh start for Steve as he saw success with his first solo album released on Endangered Recordings (Brooklyn) and another 2 track EP on Kulto Records (Columbia) and has plenty more music on the books for 2021 and 2022."</p>
+        </div>
+        <div class="display centered"  id="disco">
+            <div class="album">
+                <div class="container grow">
+                    <img src="images/album art 1.jpg" alt="Avatar" id="album1" class="shadow image">
+                    <div class="overlay">
+                        <h1 class="text">Prophet EP (2020)</h1>
+                    </div>
+                </div>
+                <div class="container grow">
+                    <img src="images/album art 2.jfif" alt="Avatar" id="album2" class="shadow image">
+                    <div class="overlay">
+                        <h1 class="text">Supernatural EP (2020)</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="display centered"  id="news">
+            <div class="album">
+                <div class="container grow">
+                    <img src="images/whenwedip.jpg" alt="Avatar" id="electronicgroove" class="shadow image">
+                    <div class="overlay">
+                        <h1 class="text">Premier on "When we Dip Groove"</h1>
+                    </div>
+                </div>
+                <div class="container grow">
+                    <img src="images/electronicgroove.jpg" alt="Avatar" id="electronicgroove" class="shadow image">
+                    <div class="overlay">
+                        <h1 class="text">Premier on "Electronic Groove"</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="display shadow"  id="upcoming">
+            <div class="centered">
+                <h1 class="neon">Coming<br>Soon..</h1>
+              </div>
+        </div>
+
+        <footer>
+            <div id="social-icons" class="socialMain">
+                <ul class="social">
+                    <li><i class="grow fa fa-instagram" aria-hidden="true"></i></li>
+                    <li><i class="grow fa fa-facebook" aria-hidden="true"></i></li>
+                    <li><i class="grow fa fa-twitter" aria-hidden="true"></i></li>                 
+                    <li><i class="grow fa fa-soundcloud" aria-hidden="true"></i></li>
+                    <li><i class="grow fa fa-spotify" aria-hidden="true"></i></li>
+                    <li><i class="grow fa fa-apple" aria-hidden="true"></i></li> 
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
