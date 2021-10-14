@@ -60,11 +60,11 @@ img {
 }
 
 .grow { 
-  transition: transform .2s; /* Animation */
+  transition: transform .2s; 
 }
   
 .grow:hover { 
-  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.2);
 }
 
 .title {
@@ -89,7 +89,6 @@ img {
   font-size: 18px;
   font-weight: bolder;
 }
-
 
 #disco {
   display: none;
@@ -202,27 +201,26 @@ footer ul li {
 }
 
 .mainImg {
-  /* max-width: 30%; */
   margin-left: 25%;
   margin-right: 25%;
 }
 
 
-/* The sidebar menu */
+/*sidebar menu */
 .sidebar {
-  height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
+  height: 100%;
+  width: 0; 
+  position: fixed; 
+  z-index: 1; 
   top: 0;
   left: 0;
-  background-color: #111; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  background-color: #111; 
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s; 
 }
 
-/* The sidebar links */
+/* sidebar links */
 .sidebar a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -232,12 +230,10 @@ footer ul li {
   transition: 0.3s;
 }
 
-/* When you mouse over the navigation links, change their color */
 .sidebar a:hover {
   color: #f1f1f1;
 }
 
-/* Position and style the close button (top right corner) */
 .sidebar .closebtn {
   position: absolute;
   top: 0;
@@ -246,7 +242,6 @@ footer ul li {
   margin-left: 50px;
 }
 
-/* The button used to open the sidebar */
 .openbtn {
   cursor: pointer;
   background-color: #111;
@@ -268,14 +263,12 @@ footer ul li {
   background-color: #444;
 }
 
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
   transition: margin-left .5s; /* If you want a transition effect */
   padding: 20px;
 }
 
 
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
@@ -303,21 +296,16 @@ footer ul li {
   0px 2px 1.5px rgba(0,0,0,0.1);
 }
 
-/* * {box-sizing:border-box} */
-
-/* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
 }
 
-/* Make the images invisible by default */
 .Containers {
   display: none;
   position: absolute;
 }
 
-/* forward & Back buttons */
 .Back, .forward {
   cursor: pointer;
   position: absolute;
@@ -333,7 +321,6 @@ footer ul li {
   user-select: none;
 }
 
-/* Place the "forward button" to the right */
 .forward {
   right: 0;
   border-radius: 4px 0 0 4px;
@@ -344,13 +331,10 @@ footer ul li {
     border-radius: 4px 0 0 4px;
 }
 
-/*when the user hovers,add a black background with some little opacity */
 .Back:hover, .forward:hover, .homeBtn:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
-
-/* Faint animation */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.4s;
@@ -386,7 +370,7 @@ html {
 
 
 
-/* socials */
+/* social icons */
 #social-icons {
   text-align: center;
   font-size: 25px;
