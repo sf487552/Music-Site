@@ -110,9 +110,9 @@ p {
 }
 
 .logo {
-  max-width: 115px;
-  margin-top: 5px;
-  margin-left: -10px;
+  max-width: 100px;
+  margin-top: 0px;
+  margin-left: -15px;
   cursor: pointer;
 }
 
