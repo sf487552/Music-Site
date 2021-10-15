@@ -411,6 +411,7 @@ html {
   width: 200px;
   height: auto;
   cursor: pointer;
+  border-radius: 15px;
 }
 
 .container {
