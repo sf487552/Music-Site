@@ -43,6 +43,19 @@ img {
   padding-right: 10px;
 } 
 
+#link {
+  font-size: 15px;
+  text-align: center;
+  font-weight: lighter;
+  margin-left: 0;
+  color: white;
+  text-decoration: none;
+}
+
+#socialLink {
+  text-decoration: none;
+}
+
 .album {
   max-width: 250px;
   max-height: 250px;
@@ -383,7 +396,7 @@ html {
   padding-left: 0px;
 }
 
-#social-icons li {
+#social-icons li a {
   color: black;
   list-style-type: none;
   display: inline-block;
@@ -391,13 +404,13 @@ html {
   transition: ease 0.3s;
 }
 
-#social-icons li:hover {
+#social-icons li a:hover {
   color: rgb(97, 46, 192);
 }
-.social:hover > li {
+.social:hover > li a {
   opacity: 0.5;
 }
-.social:hover > li:hover {
+.social:hover > li a:hover {
   opacity: 1;
 }
 

@@ -12,6 +12,10 @@ $('.closeBtn').click(function() {
   $('#Sidebar').hide();
 });
 
+$('#slink').click(function() {
+  $(this.getAttribute('href')).show()
+});
+
 /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
 function openNav() {
     document.getElementById("Sidebar").style.width = "250px";
@@ -51,7 +55,7 @@ function SlideShow(n) {
       circles[i].className = circles[i].className.replace(" enable", "");
   }
   slides[slidePosition-1].style.display = "block";
-  circles[slidePosition-1].className += " enable";
+  circles[slidePosition-1].className += "enable";
 } 
 
 
