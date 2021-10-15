@@ -57,7 +57,7 @@ img {
 }
 
 .spotifylnk {
-  height: 350px;
+  height: 325px;
 }
 
 .grow { 
@@ -134,7 +134,7 @@ p {
 
 .centered {
   position: fixed;
-  top: 45%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -184,7 +184,7 @@ footer {
   width: 100%;
   text-align: center;
   font-size: 0.8em;
-  bottom: -15px;
+  bottom: -30px;
 }
 
 footer ul {
