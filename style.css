@@ -21,7 +21,7 @@ body {
 
 img {
   margin-top: 25px;
-  width: 750px;
+  width: 500px;
   align-items: center;
   overflow: hidden;
   border-radius: 15px;
@@ -139,12 +139,6 @@ p {
   transform: translate(-50%, -50%);
 }
 
-.circle {
-  margin-top: auto;
-  margin-bottom: 50px;
-  text-align: center;
-}
-
 .mainBtn{
   width: auto;
   height: auto;
@@ -253,7 +247,7 @@ footer ul li {
   border: none;
   margin-right: 2px;
   position:absolute;
-  top:0;
+  margin-top:0;
   right:0;
   float: right;
   font-size: 23px;
