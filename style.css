@@ -24,6 +24,7 @@ img {
   width: 750px;
   align-items: center;
   overflow: hidden;
+  border-radius: 15px;
 }
 
 .homeBtn {
@@ -411,7 +412,6 @@ html {
   width: 200px;
   height: auto;
   cursor: pointer;
-  border-radius: 15px;
 }
 
 .container {
